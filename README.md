@@ -8,9 +8,11 @@ See docstrings in ``groupBMC.py`` for implementation details
 and ``demo.ipynb`` for an example of usage.
 
 References:
+
 [1] Rigoux, L., Stephan, K. E., Friston, K. J., & Daunizeau, J. (2014).
 Bayesian model selection for group studies—revisited. _NeuroImage, 84_, 971-985.
 https://www.tnu.ethz.ch/fileadmin/user_upload/documents/Publications/2014/2014_Rigoux_Stephan_Friston_Daunizeau.pdf.
+
 [2] Stephan, K. E., Penny, W. D., Daunizeau, J., Moran, R. J., & Friston, K. J. (2009).
 Bayesian model selection for group studies. _NeuroImage, 46_(4), 1004-1017.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2703732/pdf/ukmss-5226.pdf.
