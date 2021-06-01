@@ -7,6 +7,19 @@ by [Lionel Rigoux](https://sites.google.com/site/motivationbrainbehavior/the-tea
 See docstrings in ``groupBMC.py`` for implementation details 
 and ``demo.ipynb`` for an example of usage.
 
+The package can now be also installed using pip:
+```
+pip install groupBMC==1.0
+```
+
+```
+from groupBMC.groupBMC import GroupBMC
+import numpy as np
+
+L = np.array([[-100, -120, -100, -120], [-120, -100, -120, -100], [-110, -110, -110, -110]])
+result = GroupBMC(L).get_result()
+```
+
 References:
 
 [1] Rigoux, L., Stephan, K. E., Friston, K. J., & Daunizeau, J. (2014).
