@@ -123,7 +123,7 @@ class GroupBMC:
         partitions = [np.array([i]) for i in range(K)] if partitions is None else [np.array(p) - 1 for p in partitions]
         assert np.all(np.sort(np.concatenate(partitions)) == np.arange(K)), 'Invalid partition of the model space!'
         Nf = len(partitions)
-        self.families = np.zeros((K, Nf), dtype=np.bool)
+        self.families = np.zeros((K, Nf), dtype=bool)
         for j in range(Nf):
             self.families[partitions[j], j] = True
         self.α_0 = (self.families / self.families.sum(axis=0) @ (np.ones(Nf) / Nf) if α_0 is None else α_0)[:, None]
